@@ -1,0 +1,5 @@
+- Fix Permalinks
+- Delete posts
+- Learn how to use Jekyll
+- Find a way to flip the color scheme to white-text-on-a-black-background
+- Insert my own Footer
