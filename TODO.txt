@@ -4,6 +4,7 @@ Architecture:
 Styling
 - Find a way to flip the color scheme to white-text-on-a-black-background
 - Insert my own Footer
+- Make the post tile line up with my name (on the sidebar)
 
 DNS
 - Learn how to redirect "zenstealth.com" to "zenstealth.github.com" via an A record on NFSN
