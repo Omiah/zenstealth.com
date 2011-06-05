@@ -38,22 +38,22 @@
 
   <div id="mousing">&nbsp;</div>
   <div class="site">
-    <a href="https://github.com/holman" id="github">
-      <img src="/images/github.png" alt="github" title="@holman on GitHub" height="16" width="16" />
+    <a href="https://github.com/zenstealth" id="github">
+      <img src="/images/github.png" alt="github" title="@zenstealth on GitHub" height="16" width="16" />
     </a>
-    <a href="https://twitter.com/holman" id="twitter">
+    <a href="https://twitter.com/zenstealth" id="twitter">
       <img src="/images/twitter.png" alt="twitter" title="@holman on Twitter" height="16" width="16" />
     </a>
-    <a href="http://feeds.feedburner.com/holman" id="rss">
+    <a href="http://feeds.feedburner.com/zenstealth" id="rss">
       <img src="/images/rss.png" alt="rss" title="Subscribe to this blog's RSS feed" height="16" width="16" />
     </a>
   </div>
 
   <div id="sections">
     <div><a href="/">Home</a></div>
-    <div><a href="/about">about</a></div>
-    <div><a href="/about">music</a></div>
-    <div><a href="/about">reading</a></div>
+    <div><a href="/about">About</a></div>
+    <div><a href="/music">Music</a></div>
+    <div><a href="/reading">Reading</a></div>
   </div>
 
 </div>
@@ -61,18 +61,16 @@
 {{ content }}
 
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-251125-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-<script type="text/javascript"
-  src="http://gaug.es/track.js"
-  id="gauges-tracker"
-  data-site-id="4d628b21ea814913ee00000b">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-11888578-1']);
+_gaq.push(['_setDomainName', '.zenstealth.com']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 </script>
 </body>
 </html>
