@@ -1,5 +1,13 @@
-- Fix Permalinks
-- Delete posts
+Architecture:
 - Learn how to use Jekyll
+
+Styling
 - Find a way to flip the color scheme to white-text-on-a-black-background
 - Insert my own Footer
+
+DNS
+- Learn how to redirect "zenstealth.com" to "zenstealth.github.com" via an A record on NFSN
+- Fix permalinks
+	Make it that -> http://zenstealth.com/blog/[page title]
+	While non blog pages go to -> http://zenstealth.com/[about|music|reading|etc.]
+
