@@ -1,20 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!DOCTYPE html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>{{ page.title }}</title>
-  <meta name="author" content="Zach Holman" />
-  <meta name="description" content="Writings, screencasts, and talks by Zach Holman." />
-  <link rel="openid.server" href="http://www.clickpass.com/openid_server" />
-  <link rel="openid.delegate" href="http://clickpass.com/public/holman" />
-  <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/holman" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Adith Radityo" />
+  <meta name="description" content="Personal website of Adith Radityo. He likes technology, science, minimalism, and indie rock." />
+  
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <link rel="alternate" type="application/rss+xml"  href="http://feeds.feedburner.com/zenstealth" title="ZENSTEALTH RSS">
   <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
   <script type="text/javascript" src="/javascript/application.js"></script>
   <script type="text/javascript" src="/javascript/jquery.boastful.js"></script>
   <script type="text/javascript">
@@ -23,8 +21,8 @@
    });
   </script>
 </head>
-<body>
 
+<body>
 <div id="header">
   <a href="/">
     <img src="images/mangatar.png" height="75" width="75" class="avatar" />
@@ -52,9 +50,9 @@
 
   <div id="sections">
     <div><a href="/">Home</a></div>
-    <div><a href="/about">About</a></div>
-    <div><a href="/music">Music</a></div>
-    <div><a href="/reading">Reading</a></div>
+    <div><a href="/about.html">About</a></div>
+    <div><a href="/music.html">Music</a></div>
+    <div><a href="/reading.html">Reading</a></div>
     <p></p>
     <div><a href="http://twitter.com/zenstealth">Twitter</a></div>
     <div><a href="http://facebook.com/zenstealth">Facebook</a></div>
@@ -65,17 +63,6 @@
 
 {{ content }}
 
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-11888578-1']);
-_gaq.push(['_setDomainName', '.zenstealth.com']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
+<script src="/javascript/analytics.js"></script>
 </body>
 </html>
