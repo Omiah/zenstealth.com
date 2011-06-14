@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End CSS Reset */
+
+* { margin: 0; }
+html, body { height: auto; }
+#stuff { width: 960px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
+#bio { width: 500px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; text-align:left; }
+
+body { color: #000000; font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22px; height:100%; background-color: #000000; counter-reset: section; }
+
+p { color: #ffffff; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; line-height: 22px; margin:0 0 20px 0; }
+p.small { color: #ededed; font-family: "Helvetica Neue", Helvetica, Arial, sans-Serif; font-size: 12px; line-height: 22px; font-style: italic; }
+p.quote { font-style:italic; }
+p.image { margin-bottom: 5px; }
+p.icons { -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none;user-select: none; }
+p::selection { color: #000000; background: #00ff00; /* Safari */ }
+p::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+
+h1 { color: #00ff00; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 34px; line-height: 32px; margin-bottom:20px; font-weight: 300; }
+h1::selection { color: #000000; background: #00ff00; /* Safari */ }
+h1::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+
+h2 { color: #FFFFFF; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 22px; margin: 30px 0 20px 0; font-weight: 700; }
+h2:before {counter-increment:section; content:counter(section); color: #000000; background-color: #00FF00; padding: 5px; margin: 0 10px 0 0; font-weight bold; }
+h2::selection { color: #000000; background: #00ff00; /* Safari */ }
+h2::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+
+h3 { color: #00ff00; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; padding: 20px 0 10px 0; margin: -20px 0 -10px 0; font-weight: bold; }
+h3 a {border-style: none;}
+h3::selection { color: #000000; background: #00ff00; /* Safari */ }
+h3::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+
+strong::selection { color: #000000; background: #00ff00; /* Safari */ }
+strong::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+
+/* Start Footer */
+footer {
+	padding:0 0 0 50px;
+	color: #999;
+	font-size: 14px;
+	line-height: 14px;
+	vertical-align: bottom; 
+	margin:0;
+	clear: both; 
+	bottom: 0; 
+	}
+footer.inline { position: inherit; }
+footer.bottom { position: fixed; }
+footer::selection { color: #000000; background: #00ff00; /* Safari */ }
+footer::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+/* End Footer */
+
+a { color: #00ff00; font-weight: normal; text-decoration: none; }
+a:hover { color: #00ff00; border-bottom: 1px solid #666; }
+a.image { border-bottom: none; } 
+a.logo { border-bottom: none; }
+a.small { color: #ededed; border-bottom: 1px solid #666; }
+a.small:hover { border-bottom: 1px solid #00ff00; }
+a.book { color: #FFFFFF; border-bottom: 1px solid #666; }
+a.book:hover { border-bottom: 1px solid #00ff00; }
+a::selection { color: #000000; background: #00ff00; /* Safari */ }
+a::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
+
+img { border: 0; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none;user-select: none; }
+img.icon { padding:0 0 0 0; }
+img.small_icon { padding:0 10px 0 0; width: 32px; height: 32px; }
+img.html5 { vertical-align:bottom; position: fixed; bottom: 15px; right: 0; border: 0; }
+img.commons { border-width:0; }
+
+ul { list-style-type: square; margin:0 0 0 30px; color: #ffffff; font-size: 16px; }
+ol { list-style-type: decimal-leading-zero; margin:1em 0 2em 0; }
+li {line-height: 1.3em;}
+li::selection { color: #000000; background: #00ff00; /* Safari */ }
+li::-moz-selection { color: #000000; background: #00ff00; /* Firefox */ }
