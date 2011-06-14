@@ -1,0 +1,16 @@
+# BEGIN 404
+ErrorDocument 404 /404.html
+# END 404
+
+# BEGIN INTERNAL REDIRECTS
+redirect 301 /about /about.html
+redirect 301 /music /music.html
+redirect 301 /reading /reading.html
+# END INTERNAL REDIRECTS
+
+# BEGIN EXTERNAL REDIRECTS 
+redirect 301 /tweets http://tweets.zenstealth.com/
+redirect 301 /twitter http://twitter.com/zenstealth/
+redirect 301 /facebook http://facebook.com/zenstealth/
+redirect 301 /last.fm http://last.fm/user/zenstealth/
+# END REDIRECTS
