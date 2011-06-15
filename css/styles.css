@@ -13,6 +13,12 @@ a:hover {
      text-decoration: none;
 }
 
+a.footer {
+     text-decoration: none;
+}
+
+a.footer:hover {border-bottom: 1px solid #00FF00;}
+
 p code, li code {
      background-color: #00FF00;
      border-radius: 4px 4px 4px 4px;
@@ -175,8 +181,8 @@ h3 {
 }
 
 #post h3 {
-     font-style: italic;
      color: #FFFFFF;
+     font-style: italic;
 }
 
 #post ul {
