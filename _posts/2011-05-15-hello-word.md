@@ -3,5 +3,5 @@ layout: post
 title: "Hello World!"
 ---
 
-echo Hello World
-Testing Testing 123
+<p><code>echo Hello World</code><p>
+<p>Testing Testing 123</p>
