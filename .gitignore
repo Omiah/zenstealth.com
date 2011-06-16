@@ -1,4 +1,9 @@
 _site
-drafts
+_drafts
+old
+
+# TODO List #
 todo
-rsync.txt
+
+# Google Verification #
+google*.html
