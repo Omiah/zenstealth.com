@@ -42,6 +42,13 @@ h3 { color: #999999; }
 #header #sections a.nav { background-color: #00FF00; font-weight: bold; }
 #header #sections #blocks { padding: 0 0 7px 0; }
 
+/* Social Colors */
+#header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; }
+#header #sections a.tumblr { background-color: #2C4762; color: #FFFFFF; }
+#header #sections a.facebook { background-color: #3B5998; color: #FFFFFF; }
+#header #sections a.lastfm { background-color: #DE1303; color: #FFFFFF; }
+#header #sections a.github { background-color: #FFFFFF; color: #F000000; }
+
 #post { border-bottom: 1px solid #EEEEEE; padding-bottom: 15px; }
 #post h1 { font-size: 23px; padding: 3px 0pt 0pt; }
 #post h3 { color: #FFFFFF; font-style: italic; }
