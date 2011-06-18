@@ -52,6 +52,7 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #post { border-bottom: 1px solid #EEEEEE; padding-bottom: 10px; counter-reset: questions; } /* When adding increments, don't forget about adding a counter-reset. */
 #post h1 { color: #D9D9D9; font-size: 23px; }
 #post h1.page_title { color: #00FF00; }
+#post #before h2 { line-height: 1.5em; }
 #post #before h2:before {counter-increment: questions; content: counter(questions); color: #000000; background-color: #00FF00; padding: 5px; margin: 0 10px 0 0; font-weight bold; }
 
 #post a:hover { border-bottom: 1px solid #00FF00; }
