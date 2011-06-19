@@ -4,4 +4,3 @@ permalink: pretty
 auto: true
 rdiscount:
   extensions: [smart]
-exclude: [v1, v2, clock]
