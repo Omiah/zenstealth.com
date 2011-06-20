@@ -50,9 +50,9 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #header #sections a.github { background-color: #FFFFFF; color: #F000000; }
 
 #post { border-bottom: 1px solid #EEEEEE; padding-bottom: 10px; counter-reset: questions; } /* When adding increments, don't forget about adding a counter-reset. */
-#post h1 { color: #D9D9D9; font-size: 23px; }
+#post h1 { color: #FFFFFF; font-size: 23px; }
 #post h1.page_title { color: #00FF00; }
-#post #before h2 { line-height: 1.5em; }
+#post #before h2 { line-height: 1em; padding: 12px 0 0 0; }
 #post #before h2:before {counter-increment: questions; content: counter(questions); color: #000000; background-color: #00FF00; padding: 5px; margin: 0 10px 0 0; font-weight bold; }
 
 #post a:hover { border-bottom: 1px solid #00FF00; }
@@ -64,7 +64,7 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #post p { font-size: 16px; line-height: 1.7em; margin-bottom: 1em; }
 #post p.image { margin-bottom: 5px; }
 
-#post img { display: block; margin-left: auto; margin-right: auto; max-width: 610px; }
+#post img { display: block; max-width: 650px; }
 #post img.noclip { max-width: 650px ! important; }
 #post img.lastfm { margin-left: 0pt; margin-right: 0pt; }
 
