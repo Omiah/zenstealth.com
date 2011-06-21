@@ -1,0 +1,8 @@
+TODO:
+1. Write a second post.
+2. Get H1 Post Titles to be green without an :hover underline.
+3. Get Feedburner working with Jekyll
+
+FUTURE PLANS:
+- Create a "Projects" page.
+- Implement Disqus for commenting
