@@ -4,3 +4,4 @@ permalink: pretty
 auto: true
 rdiscount:
   extensions: [smart]
+exclude: [drafts, todo.txt, readme.markdown]
