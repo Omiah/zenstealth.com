@@ -1,7 +1,7 @@
 # zenstealth.com
 
 Hi!
-===
+---
 
 This is the source code for my website. It's a bit minimalist.
 
