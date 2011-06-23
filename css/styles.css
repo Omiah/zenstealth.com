@@ -63,7 +63,7 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #post p { font-size: 16px; line-height: 1.7em; margin-bottom: 1em; }
 #post p.image { margin-bottom: 5px; }
 
-#post a.superlink { margin: 25px 0pt 0pt 0px; background-color: #00FF00; color: #000000; padding: 1px 5px; }
+#post a.superlink { font-family: Helvetica, Arial, sans-serif; margin: 25px 0pt 0pt 0px; background-color: #00FF00; color: #000000; padding: 3px 5px; }
 #post a.superlink:hover { background-color: #FFFFFF; color: #000000; }
 
 #post img { display: block; max-width: 650px; }

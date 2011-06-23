@@ -1,8 +1,9 @@
 TODO:
-1. Write a second post.
-2. Get H1 Post Titles to be green without an :hover underline.
+1. [IN PROGRESS] Write a second post.
+2. [DONE] Get H1 Post Titles to be green without an :hover underline. 
 3. Get Feedburner working with Jekyll
 
 FUTURE PLANS:
+- Make permalinks like http://zenstealth.com/title-of-the-post
 - Create a "Projects" page.
 - Implement Disqus for commenting
