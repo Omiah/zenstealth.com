@@ -2,6 +2,7 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-24220862-1']);
+  _gaq.push(['_setDomainName', '.zenstealth.com']);
   _gaq.push(['_trackPageview']);
 
   (function() {
