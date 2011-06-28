@@ -45,11 +45,12 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #header #sections #block1 { padding: 0 0 7px 0; }
 
 /* Social Colors */
-#header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; }
+#header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; text-shadow: black .5px .5px 1px; }
 #header #sections a.tumblr { background-color: #2C4762; color: #FFFFFF; }
 #header #sections a.facebook { background-color: #3B5998; color: #FFFFFF; }
 #header #sections a.lastfm { background-color: #DE1303; color: #FFFFFF; }
-#header #sections a.github { background-color: #FFFFFF; color: #F000000; }
+#header #sections a.github { background-color: #FFFFFF; color: #000000; }
+#header #sections a.rss { background-color: #FF7F00; color: #FFFFFF; text-shadow: black 0.1em 0.1em 0.2em; }
 
 #post { border-bottom: 1px solid #444444; padding-bottom: 10px; counter-reset: questions; } /* When adding increments, don't forget about adding a counter-reset. */
 #post #before h2 { line-height: 1em; padding: 12px 0 0 0; }
