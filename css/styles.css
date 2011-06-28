@@ -40,7 +40,9 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #header #sections a { background-color: #00FF00; color: #000000; font-size: 12px; font-weight: bold; padding: 3px 5px; }
 #header #sections a:hover { background-color: #FFFFFF; color: #000000; }
 #header #sections a.nav { background-color: #00FF00; font-weight: bold; }
-#header #sections #blocks { padding: 0 0 7px 0; }
+#header #sections #block1 { padding: 0 0 7px 0; }
+#header #sections #block2 { padding: 0 0 7px 0; }
+#header #sections #block1 { padding: 0 0 7px 0; }
 
 /* Social Colors */
 #header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; }
