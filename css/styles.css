@@ -42,10 +42,10 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #header #sections a.nav { background-color: #00FF00; font-weight: bold; }
 #header #sections #block1 { padding: 0 0 7px 0; }
 #header #sections #block2 { padding: 0 0 7px 0; }
-#header #sections #block1 { padding: 0 0 7px 0; }
+#header #sections #block3 { padding: 0 0 7px 0; }
 
 /* Social Colors */
-#header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; text-shadow: black .5px .5px 1px; }
+#header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; }
 #header #sections a.tumblr { background-color: #2C4762; color: #FFFFFF; }
 #header #sections a.facebook { background-color: #3B5998; color: #FFFFFF; }
 #header #sections a.lastfm { background-color: #DE1303; color: #FFFFFF; }
