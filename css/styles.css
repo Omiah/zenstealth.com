@@ -45,11 +45,7 @@ h3 { font-size: 16px; color: #999999; font-style: italic; }
 #header #sections #block3 { padding: 0 0 7px 0; }
 
 /* Social Colors */
-#header #sections #block2 a { text-shadow: black 0.1em 0.1em 0.2em; opacity: 0.5; }
-#header #sections #block2 a:hover { opacity: 1; }
-#header #sections #block3 a { opacity: 0.5; }
-#header #sections #block3 a:hover { opacity: 1; }
-
+#header #sections #block2 a { text-shadow: black 0.1em 0.1em 0.2em;  }
 #header #sections a.twitter { background-color: #52D4FF; color: #FFFFFF; }
 #header #sections a.tumblr { background-color: #2C4762; color: #FFFFFF; }
 #header #sections a.facebook { background-color: #3B5998; color: #FFFFFF; }
