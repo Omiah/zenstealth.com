@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Blog"
+---
+
+{% for post in site.posts %}
+<h1><a href="{{ post.url }}" title="[Permalink] {{ post.title }}">{{ post.title }}</a></h1>
+<div class="authoring">{{ post.date | date_to_long_string }}</div>
+ 
+  {{ post.content }}
+
+{% if post != paginator.posts.last %}
+
+  {% endif %}
+{% endfor %}
