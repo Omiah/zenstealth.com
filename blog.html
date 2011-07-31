@@ -3,9 +3,13 @@ layout: default
 title: "Blog"
 ---
 
+<h1>
+  <a class="title" href="{{ page.url }}">{{ page.title }}</a>
+</h1>
+
 {% for post in site.posts %}
-<h1><a href="{{ post.url }}" title="[Permalink] {{ post.title }}">{{ post.title }}</a></h1>
-<div class="authoring">{{ post.date | date_to_long_string }}</div>
+<h2><a href="{{ post.url }}" title="[Permalink] {{ post.title }}">// {{ post.title }}</a></h2>
+<div class="authoring">{{ post.date | date: "%B %e, %Y" }}</div>
  
   {{ post.content }}
 
