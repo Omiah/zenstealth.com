@@ -3,7 +3,7 @@ layout: post
 title: "Hello World!"
 ---
 
-<code>echo Hello World</code>
+`echo Hello World`
 
 This is my first Jekyll powered post!
 
