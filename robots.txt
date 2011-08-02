@@ -1,4 +1,2 @@
 User-agent: *
-Disallow: /old
-Disallow: /v2
-Disallow: /v1
+Disallow: /clock
