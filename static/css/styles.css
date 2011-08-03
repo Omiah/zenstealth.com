@@ -2,28 +2,39 @@
 @import "/static/css/syntax.css";
 
 html, body {height:100%;}
-body {background-image:url('/static/media/triangles.png'); background-color: #000; color: #FFF; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 15px; line-height: 27px; height:100%;}
+body { 
+  background-image:url('/static/media/triangles.png');
+  background-color: #000;
+  color: #FFF;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px; 
+  line-height: 27px;
+  }
 
 /* Start Important Page Stuff */
 #container { min-height:100%; position:relative; }
 #body { padding: .1px 0 0 0; padding-bottom:50px;   /* Height of the footer */ }
+#content { max-width: 520px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
 #footer { position:absolute; bottom:0; width:100%; height:50px;   /* Height of the footer */ }
 #footer p { padding: 0 0 0 50px; color: #999; font-size: 16px; }
-#content { max-width: 520px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; text-align:justify; }
+
 #stuff, #blog { padding: 0 0 25px 0; }
 #reading ul { margin: 0 0 25px 15px; }
+
+/* Header Stuff*/
 #title { padding: 0 0 20px 0; }
-.authoring { margin: -18px 0 0 0; font-size: 15px; font-weight: 400; }
+#title a:hover { border-bottom: none; }
+.authoring { margin: -18px 0 0 0; font-size: 15px; }
 .authoring p { line-height: 15px; }
 
-/* When adding increments, don't forget to add div id="before" */
+/* Before Increments - When adding increments, don't forget to add div id="before" to the page */
 .before { counter-reset: questions; }
 .before p {padding: 0 0 10px 0; }
 .before h2 { line-height: 1em; }
 .before h2:before {counter-increment: questions; content: counter(questions); color: #000000; background-color: #00FF00; padding: 5px; margin: 0 10px 0 0; }
 .before h3 { padding: 10px 0 40px 0; }
 
-/* Start Social Media Buttons */
+/* Social Media Buttons */
 #social a { font-size: 12px; font-weight: bold; margin: 0 5px 0 0; padding: 3px 5px;  text-decoration: none;  border-bottom: none;  text-shadow: black 0.1em 0.1em 0.2em; border-radius: 2px; }
 #social a.twitter { background-color: #52D4FF; color: #FFFFFF; }
 #social a.tumblr { background-color: #2C4762; color: #FFFFFF; }
@@ -33,30 +44,29 @@ body {background-image:url('/static/media/triangles.png'); background-color: #00
 #social a.github { background-color: #FFFFFF; color: #000000; text-shadow: black 0.1em 0.1em .5em;}
 #social a.rss { background-color: #FF7F00; color: #FFFFFF; }
 
+/* Headings */
+h1 { color: #00ff00; font-size: 34px; margin-bottom:20px; font-weight: 200; }
+h2 { color: #FFFFFF; font-size: 22px; margin: 0 0 20px 0; font-weight: 300; }
+h3 { color: #FFFFFF; font-size: 16px; padding: 20px 0 10px 0; margin: -20px 0 -10px 0; font-weight: bold; }
+h3 a {border-style: none;}
+strong {color: #FFF; font-weight: 700;}
+pre, code { font-family: Courier, serif; }
+
 p { color: #ffffff; margin:0 0 15px 0; }
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
 p.quote { font-style:italic; }
 p.image { margin-bottom: 5px; }
 
-/* Typography Stuff */
-h1 { color: #00ff00; font-size: 34px; margin-bottom:20px; font-weight: 300; }
-h2 { color: #FFFFFF; font-size: 22px; margin: 0 0 20px 0; font-weight: 500; }
-h3 { color: #00ff00; font-size: 16px; padding: 20px 0 10px 0; margin: -20px 0 -10px 0; font-weight: bold; }
-h3 a {border-style: none;}
-strong {color: #FFF; font-weight: 700;}
-pre, code { font-family: Courier, serif; }
-
-a { color: #00ff00; font-weight: normal; text-decoration: none; }
+a { color: #00ff00; text-decoration: none; }
 a:hover { color: #00ff00; border-bottom: 1px solid #666; }
-a.image { border-bottom: none; } 
-a.logo { border-bottom: none; }
 a.small { color: #ededed; border-bottom: 1px solid #666; }
 a.small:hover { border-bottom: 1px solid #00ff00; }
-a.book { color: #FFFFFF; border-bottom: 1px solid #666; }
+a.book  { color: #FFFFFF; border-bottom: 1px solid #666; }
 a.book:hover { border-bottom: 1px solid #00ff00; }
-a.title:hover { border-bottom: none; }
+a.image { border-bottom: none; } 
+a.logo  { border-bottom: none; }
 
-img.small_icon { padding:0 10px 0 0; width: 32px; height: 32px; }
+img { max-width: 100% }
 img.html5 { vertical-align:bottom; position: fixed; bottom: 25px; right: 7px; border: 0; width: auto; }
 img.lastfm { width: auto; } 
 
