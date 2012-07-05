@@ -1,6 +1,7 @@
 _site
 _drafts
 todo
+.DS_Store
 
 # Google Verification #
 google*.html
