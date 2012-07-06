@@ -66,10 +66,8 @@ a.small:hover { border-bottom: 1px solid #00ff00; }
 a.book  { color: #FFFFFF; border-bottom: 1px solid #666; }
 a.book:hover { border-bottom: 1px solid #00ff00; }
 a.image { border-bottom: none; } 
-a.logo  { border-bottom: none; }
 
 img { max-width: 100% }
-img.html5 { vertical-align:bottom; position: fixed; bottom: 25px; right: 7px; border: 0; width: auto; }
 img.lastfm { width: auto; } 
 
 ul { list-style-type: square; margin: 0 15px 0 15px; color: #ffffff; }
