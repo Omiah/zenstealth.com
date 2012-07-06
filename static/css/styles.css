@@ -38,6 +38,7 @@ body {
 .before h3 { padding: 10px 0 40px 0; }
 
 /* Social Media Buttons */
+#social { margin: 15px 0 0 0; }
 #social a { font-size: 12px; font-weight: bold; margin: 0 5px 0 0; padding: 3px 5px;  text-decoration: none;  border-bottom: none;  text-shadow: black 0.1em 0.1em 0.2em; border-radius: 2px; }
 #social a.twitter { background-color: #52D4FF; color: #FFFFFF; }
 #social a.tumblr { background-color: #2C4762; color: #FFFFFF; }
@@ -57,7 +58,7 @@ h3 a {border-style: none;}
 strong {color: #FFF; font-weight: 700;}
 pre, code { font-family: Courier, serif; }
 
-p { color: #ffffff; margin:0 0 15px 0; }
+p { color: #ffffff; margin-bottom: 15px; }
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
 p.quote { font-style:italic; }
 p.image { margin-bottom: 5px; }
