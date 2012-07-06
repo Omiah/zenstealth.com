@@ -46,6 +46,7 @@ body {
 #social a.spotify { background-color: #70C800; color: #FFFFFF; }
 #social a.github { background-color: #FFFFFF; color: #000000; text-shadow: black 0.1em 0.1em .5em;}
 #social a.gplus { background-color: #B43122; color: #FFFFFF; text-shadow: black 0.1em 0.1em .5em; }
+#social a.steam { background-color: #000000; color: #FFFFFF; }
 #social a.rss { background-color: #FF7F00; color: #FFFFFF; }
 
 /* Headings */
