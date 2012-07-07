@@ -8,6 +8,8 @@
   <link rel="alternate" type="application/rss+xml"  href="http://feeds.feedburner.com/zenstealth" title="ZENSTEALTH RSS">
   <link rel="stylesheet" href="/static/css/styles.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="/static/css/font-awesome.css">
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+  <link rel="stylesheet" href="/static/css/bootstrap-responsive.css">
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -25,18 +27,18 @@
   </script>
   <script type="text/javascript" src="/static/javascript/jquery.js"></script>
   <script type="text/javascript" src="/static/javascript/hover.js"></script> 
+  <script type="text/javascript" src="/static/javascript/bootstrap.js"></script> 
 </head>
 
 <body>
+{% include header.html %}
+
   <div id="container">
     <div id="body">
       <div id="content">
-        {{ content }}
+      {{ content }}
       </div>
-      <div id="footer">
-        {% include footer.html %}
-      </div>
-    </div>
+  </div>
   </div>
 </body>
 </html>
