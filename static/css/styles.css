@@ -22,14 +22,23 @@ body {
 #stuff, #blog { padding: 0 0 25px 0; }
 #reading ul { margin: 0 0 25px 15px; }
 
-/* Header Stuff*/
+/* Header Stuff */
 .title { padding: 0 0 20px 0; }
 .title a:hover { border-bottom: none; }
-.authoring { margin: -18px 0 0 0; font-size: 15px; }
+.authoring { margin: -18px 0 0 0; padding: 0 0 20px 0; font-size: 15px; }
 .authoring p { line-height: 15px; }
-#about p {padding-bottom: 5px; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
 #technical ul { padding-bottom: 10px; }
+#about p {padding-bottom: 5px; }
+#music { padding: 20px 0 0 0; }
+
+/* Blog Content */
+
+#post h2 { font-weight: bold; }
+#post #date { padding: 0 0 20px 0; font-style: italic; font-size: 14px;}
+#article { padding: 0 0 30px 0; }
+#article p { margin: 0 0 10px 0; }
+
 
 /* Before Increments - When adding increments, don't forget to add div id="before" to the page */
 .before { counter-reset: questions; }
