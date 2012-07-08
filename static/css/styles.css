@@ -24,6 +24,7 @@ body {
 /* Header Stuff */
 .title { padding: 0 0 20px 0; }
 .title a:hover { border-bottom: none; }
+#title a:hover { border-bottom: none; }
 .authoring { margin: 4px 0 0 0; padding: 0 0 20px 0; font-size: 15px; color: #FFFFFF; }
 .authoring p { line-height: 15px; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
