@@ -38,8 +38,8 @@ body {
 #article { padding: 0 0 30px 0; }
 #article p { margin: 0 0 10px 0; }
 
-
-div.image p { text-align: left; font-style: italic; font-size: smaller; text-indent: 0;}
+.image p { text-align: left; font-style: italic; font-size: smaller; text-indent: 0;}
+.cc h2 { font-weight: bold; margin: 0; padding: 10px 0 0 0;}
 
 
 /* Before Increments - When adding increments, don't forget to add div id="before" to the page */
