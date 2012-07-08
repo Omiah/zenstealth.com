@@ -436,10 +436,13 @@ ol ul {
   margin-bottom: 0;
 }
 ul {
-  list-style: disc;
+  list-style-type: square;
+  margin: 0 15px 0 15px; 
+  color: #ffffff;
 }
 ol {
-  list-style: decimal;
+  llist-style-type: decimal-leading-zero; 
+  margin:1em 0 2em 0; 
 }
 li {
   line-height: 18px;
@@ -558,7 +561,7 @@ pre {
 }
 code {
   padding: 2px 4px;
-  color: #d14;
+  color: #000;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
 }
