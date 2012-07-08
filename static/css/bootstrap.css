@@ -377,7 +377,8 @@ h6 small {
   color: #adafae;
 }
 h1 {
-  font-size: 30px;
+  font-size: 34px;
+  font-weight: 200;
   line-height: 36px;
 }
 h1 small {
@@ -3020,7 +3021,7 @@ input[type="submit"].btn.btn-mini {
   float: left;
   display: block;
   padding: 8px 20px 12px;
-  margin-left: -20px;
+  margin-left: 10px;
   font-size: 20px;
   font-weight: 200;
   line-height: 1;
