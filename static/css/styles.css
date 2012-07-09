@@ -76,9 +76,7 @@ p.quote { font-style:italic; }
 p.image { margin-bottom: 5px; }
 
 a { color: #00ff00; text-decoration: none; }
-a:hover { color: #00ff00; border-bottom: 1px solid #666; }
 a.small { color: #ededed; border-bottom: 1px solid #666; }
-a.small:hover { border-bottom: 1px solid #00ff00; }
 a.book  { color: #FFFFFF; border-bottom: 1px solid #666; }
 a.book:hover { border-bottom: 1px solid #00ff00; }
 a.image { border-bottom: none; } 
