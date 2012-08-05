@@ -91,3 +91,5 @@ img.lastfm { padding: 10px 0 0 0; margin: 0 0 10px 0; width: auto; }
         display:none; }
         
 #toTop i { font-size: 18px; }
+
+.projects li { padding-bottom: 10px; }
