@@ -4,4 +4,4 @@ permalink: pretty
 auto: true
 rdiscount:
   extensions: [smart]
-exclude: [_drafts, todo, readme.markdown, deploy.sh]
+exclude: [_drafts, todo*, readme.markdown]
