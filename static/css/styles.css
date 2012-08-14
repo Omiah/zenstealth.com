@@ -23,20 +23,18 @@ body {
 
 /* Header Stuff */
 .title { padding: 0 0 20px 0; }
-.title a:hover { border-bottom: none; }
-#title a:hover { border-bottom: none; }
 .authoring { margin: 4px 0 0 0; padding: 0 0 20px 0; font-size: 15px; color: #FFFFFF; }
-.authoring p { line-height: 15px; }
+#postdate { color: #A3A3A3; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
 #technical ul { padding-bottom: 10px; }
 #about p {padding-bottom: 5px; }
 #music { padding: 20px 0 0 0; }
 
 /* Content */
-#post #date { margin: 0; font-size: 14px;}
+#post #date { margin: 0; font-size: 14px; }
 #article { padding: 0 0 30px 0; }
 #article p { margin: 0 0 10px 0; }
-#disqus { margin: 10px 0 0 0; padding: 10px 0 0 0; border-top: 1px solid #666; }
+#back-button { padding-top: 30px; }
 
 .image p { text-align: left; font-style: italic; font-size: smaller; text-indent: 0;}
 .commons h3 { font-weight: bold; margin: 0; padding: 10px 0 0 0; }
