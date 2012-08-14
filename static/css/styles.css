@@ -12,7 +12,7 @@ body {
 /* Start Important Page Stuff */
 #container { min-height:100%; position:relative; }
 #body { padding: .1px 0 0 0; padding-bottom:50px;   /* Height of the footer */ }
-#content { max-width: 520px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
+#content { max-width: 550px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
 #footer { position:absolute; bottom:0; width:100%; height:50px;   /* Height of the footer */ }
 #footer p { padding: 0 0 0 50px; color: #999; font-size: 16px; }
 #footer a { margin: 0 15px 0 0; }
