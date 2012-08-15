@@ -13,33 +13,32 @@ body {
 #container { min-height:100%; position:relative; }
 #body { padding: .1px 0 0 0; padding-bottom:50px;   /* Height of the footer */ }
 #content { max-width: 550px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
+
 #footer { position:absolute; bottom:0; width:100%; height:50px;   /* Height of the footer */ }
 #footer p { padding: 0 0 0 50px; color: #999; font-size: 16px; }
 #footer a { margin: 0 15px 0 0; }
 
 #index h1 { font-family: "Helvetica Neue", Helvetica, sans-serif; font-weight: 300; font-size: 34px; padding: 0 0 15px 0; }
-#stuff, #blog { padding: 0 0 25px 0; }
+#index p  { padding: 0; }
 #reading ul { margin: 0 0 25px 15px; }
 
 /* Header Stuff */
 .title { padding: 0 0 20px 0; }
 .title h1 { font-weight: 300; }
-.authoring { margin: 4px 0 0 0; padding: 0 0 20px 0; font-size: 15px; color: #FFFFFF; }
-#postdate { color: #A3A3A3; }
+.authoring { margin: 4px 0 0 0; padding: 0 0 10px 0; font-size: 15px; color: #FFFFFF; }
+.post_date { color: #A3A3A3; margin: 0; font-size: 14px; }
+
 #technical { padding-top: 10px; border-top: 1px solid #666; }
 #technical ul { padding-bottom: 10px; }
-#about p {padding-bottom: 5px; }
-#music { padding: 10px 0 0 0; }
+#projects p { padding-bottom: 5px; }
 
 /* Content */
-#post #date { margin: 0; font-size: 14px; }
-#article { padding: 0 0 30px 0; }
-#article p { margin: 0 0 10px 0; }
-#back-button { padding-top: 30px; }
-
+.article { padding: 0 0 30px 0; }
+.article p { margin: 0 0 10px 0; }
 .image p { text-align: left; font-style: italic; font-size: smaller; text-indent: 0;}
 .commons h3 { font-weight: bold; margin: 0; padding: 10px 0 0 0; }
-.projects li { padding-bottom: 10px; }
+
+#back-button { padding-top: 30px; }
 
 /* Before Increments - When adding increments, don't forget to add div id="before" to the page */
 .before { counter-reset: questions; }
@@ -77,7 +76,7 @@ h3 a {border-style: none;}
 strong {color: #FFF; font-weight: 700;}
 pre, code { font-family: Courier, serif; }
 
-p { color: #ffffff; margin-bottom: 15px; }
+p { color: #ffffff; margin-bottom: 15px; padding-bottom: 10px; }
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
 p.quote { font-style:italic; }
 p.image { margin-bottom: 5px; }
@@ -88,5 +87,6 @@ a.book  { color: #FFFFFF; border-bottom: 1px solid #666; }
 a.book:hover { border-bottom: 1px solid #00ff00; }
 a.image { border-bottom: none; } 
 
-img { max-width: 100% }
+img { max-width: 100%; padding: 10px 0 10px 0; }
+img.cc { padding: 0; border-width:0; }
 img.lastfm { padding: 10px 0 0 0; margin: 0 0 10px 0; width: auto; } 
