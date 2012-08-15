@@ -17,12 +17,13 @@ body {
 #footer p { padding: 0 0 0 50px; color: #999; font-size: 16px; }
 #footer a { margin: 0 15px 0 0; }
 
-.index h1 { font-family: "Helvetica Neue", Helvetica, sans-serif; font-weight: bold; font-size: 34px; padding: 0 0 15px 0; }
+.index h1 { font-family: "Helvetica Neue", Helvetica, sans-serif; font-weight: 300; font-size: 34px; padding: 0 0 15px 0; }
 #stuff, #blog { padding: 0 0 25px 0; }
 #reading ul { margin: 0 0 25px 15px; }
 
 /* Header Stuff */
 .title { padding: 0 0 20px 0; }
+.title h1 { font-weight: 300; }
 .authoring { margin: 4px 0 0 0; padding: 0 0 20px 0; font-size: 15px; color: #FFFFFF; }
 #postdate { color: #A3A3A3; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
