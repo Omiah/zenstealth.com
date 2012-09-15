@@ -40,6 +40,8 @@ body {
 .commons h3 { font-weight: bold; margin: 0; padding: 10px 0 0 0; }
 
 #projects p { padding: 0; margin: 0; }
+#projects h2 { display: inline; }
+#projects span { float: right; }
 #back-button { padding-top: 30px; }
 
 /* Before Increments - When adding increments, don't forget to add div id="before" to the page */
