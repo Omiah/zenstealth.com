@@ -1,9 +1,0 @@
----
-layout: post
-title: "Tumblr"
----
-
-I'll probably get around to posting stuff on here once I figure out how Jekyll's fastidious permalink system works.
-
-In the mean time you should check out my other blog on [Tumblr](http://tumblr.zenstealth.com). It has lot more stuff on there.
-
