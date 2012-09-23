@@ -14,7 +14,7 @@ It's a simple [Jekyll](https://github.com/mojombo/jekyll) powered blog.
 Creative Commons
 ----------------
 
-I, Adith Radityo, release all the contents of the website [zenstealth.com](http://zemstealth.com) under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License, unless otherwise noted. 
+I, Adith Radityo, release all the contents of the website [zenstealth.com](http://zemstealth.com) under a [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/), unless otherwise noted. 
 
 License
 -------
