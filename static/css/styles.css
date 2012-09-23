@@ -35,7 +35,7 @@ body {
 
 /* Content */
 .article { padding: 0 0 30px 0; }
-.article p { margin: 0 0 10px 0; }
+.article p { margin: 5px 0 5px 0; }
 .image p { text-align: left; font-style: italic; font-size: smaller; text-indent: 0;}
 .commons h3 { font-weight: bold; margin: 0; padding: 10px 0 0 0; }
 
@@ -73,8 +73,8 @@ body {
 #social a.rss { background-color: #FF7F00; color: #FFFFFF; }
 
 /* Page Elements */
-h1 { color: #00ff00; font-size: 34px; margin-bottom:20px; font-weight: 200; }
-h2 { color: #FFFFFF; font-size: 22px; margin: 0 0 20px 0; font-weight: 300; }
+h1 { color: #00ff00; font-size: 34px; font-weight: 200; }
+h2 { color: #FFFFFF; font-size: 22px; font-weight: 300; }
 h3 { color: #FFFFFF; font-size: 16px; padding: 20px 0 10px 0; margin: -20px 0 -10px 0; font-weight: bold; }
 h3 a {border-style: none;}
 strong {color: #FFF; font-weight: 700;}
