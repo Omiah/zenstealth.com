@@ -32,6 +32,8 @@ img { max-width: 100%; padding: 10px 0 10px 0; }
 img.cc { padding: 0; border-width:0; }
 img.lastfm { padding: 10px 0 0 0; margin: 0 0 10px 0; width: auto; } 
 
+ol { color: #FFF; list-style: decimal; }
+
 /* Start Important Page Stuff */
 #container { min-height:100%; position:relative; }
 #body { padding: .1px 0 0 0; padding-bottom:50px;   /* Height of the footer */ }

@@ -443,7 +443,6 @@ ul {
   color: #ffffff;
 }
 ol {
-  llist-style-type: decimal-leading-zero; 
   margin:1em 0 2em 0; 
 }
 li {
