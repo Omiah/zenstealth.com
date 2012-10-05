@@ -11,7 +11,7 @@ body {
 
 /* Page Elements */
 h1 { color: #00ff00; font-size: 34px; font-weight: 200; }
-h2 { color: #FFFFFF; font-size: 22px; font-weight: 300; }
+h2 { color: #FFFFFF; font-size: 22px; font-weight: 300; padding: 5px 0 10px 0; }
 h3 { color: #FFFFFF; font-size: 16px; padding: 20px 0 10px 0; margin: -20px 0 -10px 0; font-weight: bold; }
 h3 a {border-style: none;}
 strong {color: #FFF; font-weight: 700;}
@@ -33,7 +33,7 @@ img.cc { padding: 0; border-width:0; }
 img.lastfm { padding: 10px 0 0 0; margin: 0 0 10px 0; width: auto; } 
 figcaption { color: #555; margin: -15px 0 0 0; padding-bottom: 10px; }
 
-ol { color: #FFF; list-style: decimal; }
+ol { color: #FFF; list-style: decimal; padding: 0 0 0 15px;}
 
 /* Start Important Page Stuff */
 #container { min-height:100%; position:relative; }
