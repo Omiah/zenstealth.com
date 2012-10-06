@@ -9,13 +9,13 @@ This is the post where a person, after switching from their previous bloated CMS
 
 For me it was absolutely like that; before I discovered Jekyll, I used Wordpress. I spent around one whole summer to manually install Wordpress, deal with [php_safe_mode](https://encrypted.google.com/search?q=php%20safe_mode%20nearlyfreespeech), find the right themes/plugins, and make sure the whole thing was secure before I decided I absolutely don't want to deal with all of that just to blog.
 
-## Then Came Jekyll
+### Then Came Jekyll
 
 The first post I remember about Jekyll that I consciously came across was Paul Stamatiou's "[How To: WordPress to Jekyll](http://paulstamatiou.com/how-to-wordpress-to-jekyll)" post - that was the post convinced me to switch to Jekyll. Since he's a much better writer than me, I'll let him describe in detail about what it was like to switch to jekyll and the many benefits of switching to it.
 
 Instead, I'll write down the steps that I took to convert my website to Jekyll.
 
-## The Process
+### The Process
 
 1. Try out Wordpress
 2. Get frustrated at Wordpress
