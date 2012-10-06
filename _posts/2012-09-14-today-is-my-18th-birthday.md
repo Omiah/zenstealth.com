@@ -7,5 +7,5 @@ title: "Today is my 18th Birthday"
 
 I love how there's so many things I can [legally do](https://scatterbeams.wordpress.com/2010/09/28/things-you-can-do-when-you-turn-18/) now.
 
-Is it weird that I have the urge to write my own [Advance Directive](https://en.wikipedia.org/wiki/Advance_health_care_directive) (Living Will) so soon?
+Is it strange that I have the urge to write my own [living will](https://en.wikipedia.org/wiki/Advance_health_care_directive) so soon already?
 
