@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Today is my 18th Birthday"
+tags:
+- life
 ---
 
 ![FB Post](http://f.cl.ly/items/3U1P0Q393J3n2F3h0t0d/Screen%20Shot%202012-09-22%20at%208.56.02%20PM.png)

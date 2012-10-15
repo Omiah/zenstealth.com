@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "The Obligatory Jekyll Post"
+tags:
+- tech
+- jekyll
 ---
 
 ![Jekyll](http://f.cl.ly/items/2p3o430v3y0v0x3k0S2S/Jekyll.png)
