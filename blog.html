@@ -10,7 +10,7 @@ title: "Blog"
 
 <div id="post">
 {% for post in site.posts %}
-<div class="article">
+<div class="article well">
 <h2><a href="{{ post.url }}" title="[Permalink] {{ post.title }}">{{ post.title }}</a></h2>
 <div class="authoring post_date">{{ post.date | date: "%B %e, %Y" }}</div>
   {{ post.content }}
