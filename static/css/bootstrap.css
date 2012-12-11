@@ -553,17 +553,17 @@ pre {
   color: #282828;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 code {
-  padding: 2px 4px;
+  padding: 0;
   color: #000;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
 }
 pre {
   display: block;
-  padding: 8.5px;
+  padding: 5px;
   margin: 0 0 9px;
   font-size: 12.025px;
   line-height: 18px;
@@ -574,9 +574,9 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
 }
 pre.prettyprint {
   margin-bottom: 18px;
