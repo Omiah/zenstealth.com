@@ -1,90 +1,50 @@
-@import "/static/css/reset.css";
-@import "/static/css/syntax.css";
+html, body { color: #FFFFFF; font-size: 15px; font-family: "Helvetica Neue", Helvetica, sans-serif; }
 
-html, body {height:auto;}
-body { color: #FFF; font-family: "Helvetica Neue", Helvetica, sans-serif; font-size: 15px; line-height: 27px; }
-
-/* Page Elements */
+/* IMPORTANT ELEMENT STUFF */
 h1 { color: #00ff00; font-size: 34px; font-weight: 200; }
-h2 { color: #FFFFFF; font-size: 22px; font-weight: 300; }
-h3 { color: #FFFFFF; font-size: 16px; font-weight: bold; padding-bottom: 15px; }
-h3 a {border-style: none;}
-
+h2 { color: #FFFFFF; font-size: 24px; font-weight: 300; }
+h3 { color: #FFFFFF; font-size: 18px; font-weight: 700; }
 strong {color: #FFF; font-weight: 700;}
-pre, code { font-family: Courier, serif; }
 
-p { color: #ffffff; padding: 0 0 10px; }
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
-p.quote { font-style:italic; }
-p.image { margin-bottom: 5px; }
 
-a { color: #00ff00; text-decoration: none; }
-a.small { color: #ededed; border-bottom: 1px solid #666; }
-a.book  { color: #FFFFFF; border-bottom: 1px solid #666; }
-a.book:hover { border-bottom: 1px solid #00ff00; }
-a.image { border-bottom: none; } 
+figcaption { color: #555; margin-top: 10px; padding-bottom: 10px; }
+li { font-size: 15px; line-height: 28px; }
+ul { list-style-type: square; margin: 0 0 25px 15px; }
 
-img { max-width: 100%; }
-img.cc { padding: 0; border-width:0; }
-img.lastfm { padding: 10px 0 0 0; margin: 0 0 10px 0; width: auto; } 
-figcaption { color: #555; margin: -15px 0 0 0; padding-bottom: 10px; }
-
-ol { color: #FFF; list-style: decimal; padding: 0 0 0 15px;}
-
-/* Start Important Page Stuff */
+/* IMPORTANT BODY STUFF */
 #container { min-height:100%; position:relative; }
-#body { padding: .1px 0 0 0; padding-bottom:50px;   /* Height of the footer */ }
 #content { max-width: 600px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
+#content p { line-height: 28px; margin-bottom: 20px; }
 
-#footer { position:absolute; bottom:0; width:100%; height:50px;   /* Height of the footer */ }
-#footer p { padding: 0 0 0 50px; color: #999; font-size: 16px; }
-#footer a { margin: 0 15px 0 0; }
-
-#index h1 { font-family: "Helvetica Neue", Helvetica, sans-serif; font-weight: 300; font-size: 34px; padding: 0 0 15px 0; }
-#index p  { padding: 0; }
-#recent { padding: 30px 0 0 0; }
-#me { margin: 0 0 10px 0; }
-#reading ul { margin: 0 0 25px 15px; }
-
-/* Header Stuff */
+.nav a { font-size: 16px;}
+.navbar-inner { padding-left: 48px; }
 .title { padding: 0 0 20px 0; }
 .title h1 { font-weight: 300; }
+.article { margin: 0 0 40px 0; }
+.article h2 { margin: -5px 0 0 0; font-size: 24px }
 .authoring { margin: 4px 0 0 0; padding: 0 0 10px 0; font-size: 15px; color: #FFFFFF; }
 .post_date { color: #A3A3A3; margin: -5px 0 0 0; padding: 0 0 20px 0; font-size: 14px; font-style: italic;  }
 
-#technical { padding-top: 10px; border-top: 1px solid #666; }
-#technical ul { padding-bottom: 10px; }
-#projects p { padding-bottom: 5px; }
-
-/* Content */
-.article { margin: 0 0 40px 0; }
-
-.listing { margin: 0; padding: 0; }
+.listing { margin: -10px 0 0 0; padding: 0; }
 .listing ul { margin: 0; padding: 0; }
 .listing li { font-size: 13px; list-style: none; padding: 5px 0; margin: 0; color: #777777; border-bottom: 1px solid #333; }
 .listing li span { float: right; }
 .listing a { text-decoration: none; }
 .listing a:hover { text-decoration: underline; }
 
-#projects p { padding: 0; margin: 0; }
+#index h1 { color: #FFFFFF; font-weight: 300; font-size: 34px; }
+#index p { margin: 2px; }
+#recent { margin-top: 30px; }
+#music { margin-top: 15px; line-height: 28px; }
+#technical { padding-top: 10px; border-top: 1px solid #666; }
+#technical ul { padding-bottom: 10px; }
+
+#projects p { padding-top: 5px; line-height: 10px; }
 #projects h2 { display: inline; }
 #projects span { float: right; }
-#back-button { padding-top: 30px; display: inline; }
 
-/* Before Increments - When adding increments, don't forget to add div id="before" to the page */
-.before { counter-reset: questions; }
-.before h2 { line-height: 2em; padding: 15px 0 0 0;}
-.before h2:before {counter-increment: questions; content: counter(questions); color: #000000; background-color: #00FF00; padding: 3px; margin: 0 10px 0 0; }
-.before h3 { padding: 10px 0 40px 0; }
-
- /* Scroll to top button */
-#toTop { position:fixed; /* this is the magic */
-         bottom:10px; /* together with this to put the div at the bottom*/
-         right:10px;
-         cursor:pointer;
-         display:none; }
-        
-#toTop i { font-size: 18px; }
+/* ADD-ONS */
 
 /* Social Media Buttons */
 #social { margin: 15px 0 0 0; }
@@ -97,3 +57,13 @@ ol { color: #FFF; list-style: decimal; padding: 0 0 0 15px;}
 #social a.gplus { background-color: #B43122; color: #FFFFFF; text-shadow: black 0.1em 0.1em .5em; }
 #social a.steam { background-color: #000000; color: #FFFFFF; }
 #social a.rss { background-color: #FF7F00; color: #FFFFFF; }
+
+ /* Scroll to top button */
+#toTop { font-family: "Helvetica Neue", Helvetica, sans-serif;
+			position:fixed; /* this is the magic */
+         bottom:10px; /* together with this to put the div at the bottom*/
+         right:10px;
+         cursor:pointer;
+         display:none; }
+        
+#toTop i { font-size: 18px; }

@@ -36,7 +36,7 @@ Instead, I'll write down the steps that I took to convert my website to Jekyll.
 14. Add final layout changes - make things look real good
 15. Write out this post
 16. ???????
-17. PROFIT!!!
+17. PROFIT!!! (Not really)
 
 ### That's about it really.
 
