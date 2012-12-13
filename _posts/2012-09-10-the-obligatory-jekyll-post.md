@@ -27,7 +27,7 @@ Instead, I'll write down the steps that I took to convert my website to Jekyll.
 5. NOPE
 6. Discover Jekyll
 7. Discover Git
-8. Fork off Zach Holman's [beautifully designed site](http://zachholman.com/)
+8. Fork off Zach Holman's [beautifully designed site](http://zachholman.com/posts/left/)
 9. Wrote my first post
 10. Put off website for a year due to life events
 13. Become inspired to blog again
