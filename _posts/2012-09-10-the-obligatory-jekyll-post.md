@@ -38,5 +38,5 @@ Instead, I'll write down the steps that I took to convert my website to Jekyll.
 16. ???????
 17. PROFIT!!! (Not really)
 
-### That's about it really.
+### That's about it.
 
