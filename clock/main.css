@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'ZektonRegular';
-    src: url('/fonts/zekton-webfont.eot');
-    src: url('/fonts/zekton-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/zekton-webfont.woff') format('woff'),
-         url('/fonts/zekton-webfont.ttf') format('truetype'),
-         url('/fonts/zekton-webfont.svg#ZektonRegular') format('svg');
+    src: url('/static/fonts/zekton-webfont.eot');
+    src: url('/static/fonts/zekton-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/fonts/zekton-webfont.woff') format('woff'),
+         url('/static/fonts/zekton-webfont.ttf') format('truetype'),
+         url('/static/fonts/zekton-webfont.svg#ZektonRegular') format('svg');
     font-weight: normal;
     font-style: normal; }
     

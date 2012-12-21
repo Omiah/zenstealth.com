@@ -15,5 +15,4 @@ redirect 301 /tumblr http://tumblr.zenstealth.com
 redirect 301 /github https://github.com/zenstealth
 redirect 301 /last.fm http://last.fm/user/zenstealth
 redirect 301 /steam http://steamcommunity.com/id/zenstealth/
-redirect 301 /club-otaku http://www.facebook.com/groups/401912889848016/
 # END REDIRECTS
