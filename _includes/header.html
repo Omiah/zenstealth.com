@@ -1,18 +1,37 @@
 <div class="navbar">
-  <div class="navbar-inner">
-    <div class="container">
+    <div class="navbar-inner">
+      <div class="container">
+     
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </a>
+     
+      <!-- Be sure to leave the brand out there if you want it shown -->
       <a class="brand" href="/">ZENSTEALTH</a>
-      <ul class="nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/music">Music</a></li>
-        <li><a href="/reading">Reading</a></li>
-        <li><a href="/projects">Projects</a></li>
-      </ul>
-      <ul class="nav pull-right">
-        <li><a href="/creative-commons"><img alt="Creative Commons License" class="cc" src="/static/img/80x15.png" /></a></li>
-      </ul>
+
+      <!-- Place destinations here -->
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/music">Music</a></li>
+          <li><a href="/reading">Reading</a></li>
+          <li><a href="/projects">Projects</a></li>             
+        </ul>
+      </div>
+     
+      <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+      <!-- .nav, .navbar-search, .navbar-form, etc -->
+        <ul class="nav pull-right">
+          <li><a href="/creative-commons"><img alt="Creative Commons License" class="cc" src="/static/img/80x15.png" /></a></li>
+        </ul>
+      </div>
+     
+      </div>
     </div>
-  </div>
 </div>
