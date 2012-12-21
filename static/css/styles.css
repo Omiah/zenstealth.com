@@ -47,6 +47,9 @@ ul { list-style-type: square; margin: 0 0 25px 15px; }
 #projects h2 { display: inline; }
 #projects span { float: right; }
 
+#cc { padding-bottom: 15px; }
+
+
 /* ADD-ONS */
 
 /* Social Media Buttons */
