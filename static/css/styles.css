@@ -55,12 +55,11 @@ code, pre { color: #000; }
 #reading p { margin: 0; }
 #reading #favorites { border-top: 1px solid #333; }
 
-#projects p { padding-top: 5px; line-height: 10px; }
-#projects h2 { display: inline; }
-#projects span { float: right; }
+.swell p { padding-top: 5px; line-height: 10px; }
+.swell h2 { display: inline; }
+.swell span { float: right; }
 
 #cc { padding-bottom: 15px; }
-
 
 /* ADD-ONS */
 
