@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2013 New Year's Resolutions"
-published: false
+published: true
 ---
 
 <img src="https://s3.amazonaws.com/f.cl.ly/items/3d0Y0P1G3S061m1A1h2G/6a00d83451b74a69e2017d3e40bf35970c-800wi.png" />
@@ -14,9 +14,7 @@ Here's to surviving the apocalypse, and for a more prosperous new year.
 - Get a new, more local job. If successful, then:
 	- Get a Driver's License
 	- Get a scooter
-	- Get a Lamy Safari Fountain Pen, Charcoal, Extra Fine
-	- Get a Timex Weekender Watch
-	- Get a Suunto M9 Wrist Compass
+	- Get a fountain pen, new watch, and compass (because they're cool)
 
 ### School
 - Get better grades in my last semester of high school
@@ -32,8 +30,8 @@ Here's to surviving the apocalypse, and for a more prosperous new year.
 - Learn how to do Surface Mount Soldering
 
 ### Tech
-- Make this website more responsive
-- Blog at least twice a month
-- Organize my ridiculously large bookmarks collection in Firefox
+- Make this structure of this website more responsive
+- Blog about something interesting at least twice a month
+- Control my ridiculously large bookmarks collection in Firefox
 - Complete building my Raspberry Pi + Hubot powered robot butler 
 - Learn how to use GNU Screen
