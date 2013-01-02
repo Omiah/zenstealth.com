@@ -15,7 +15,6 @@ Here's to surviving the apocalypse, and for a more prosperous new year.
 	- Get a Driver's License
 	- Get a scooter
 	- Get a fountain pen, new watch, and compass (because they're cool)
-- Donate a lot more blood
 
 ### School
 - Get better grades in my last semester of high school
