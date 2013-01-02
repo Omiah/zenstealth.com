@@ -57,6 +57,9 @@ code, pre { color: #000; }
 
 /* ADD-ONS */
 
+/* Disqus Comments */
+#disqus { margin: 10px 0 0 0; padding: 10px 0 0 0; border-top: 1px solid #666; }
+
 /* Social Media Buttons */
 #social { margin: 15px 0 0 0; }
 #social a { font-size: 12px; font-weight: bold; margin: 0 5px 0 0; padding: 3px 5px;  text-decoration: none;  border-bottom: none;  text-shadow: black 0.1em 0.1em 0.2em; border-radius: 2px; }
