@@ -55,6 +55,8 @@ code, pre { color: #000; }
 .swell h2 { display: inline; }
 .swell span { float: right; margin: 0 5px;}
 
+.caret { vertical-align: 15%; }
+
 /* ADD-ONS */
 
 /* Social Media Buttons */
