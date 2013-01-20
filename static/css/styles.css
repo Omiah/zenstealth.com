@@ -7,6 +7,7 @@ h3 { color: #FFFFFF; font-size: 18px; font-weight: 700; }
 strong {color: #FFF; font-weight: 700;}
 
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
+blockquote p { margin-bottom: 15px; font-size: 15px; font-weight: 300; line-height: 28px; }
 figcaption { color: #555; margin-top: 10px; padding-bottom: 10px; }
 
 li { font-size: 15px; line-height: 28px; }
@@ -55,12 +56,6 @@ code, pre { color: #000; }
 .swell h2 { display: inline; }
 .swell span { float: right; margin: 0 5px;}
 .caret { vertical-align: 15%; }
-.quote { font-weight: 200; text-align: justify; }
-blockquote:before{ content:"“"; display: inline; font-size:2em; float: left; padding-right: 5px; }
-blockquote:after{ content:'”'}
-cite { padding-top: 10px; }
-cite:before { content: "- "; }
-
 
 /* ADD-ONS */
 
