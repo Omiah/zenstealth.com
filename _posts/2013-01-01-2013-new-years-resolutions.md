@@ -10,6 +10,8 @@ It's that time of the year again, so here are my resolutions, which for the firs
 
 Here's to surviving the apocalypse, and for a more prosperous new year.
 
+<del>Strikethrough indicates completeness.</del>
+
 ### Life
 - Get a new, more local job. If successful, then:
 	- Get a Driver's License
@@ -20,18 +22,18 @@ Here's to surviving the apocalypse, and for a more prosperous new year.
 - Get better grades in my last semester of high school
 - Pass the SATs
 - Get accepted into a college
-- Get a date to the Prom
-- Successfully complete my Senior Project on wearable computing
-	
+- <del>Get a date to the Prom</del>
+- Successfully complete my Senior Project
+
 ### Skills
 - Get better on the electric guitar
 - Replace the pickguard and knobs on my Fender Strat
-- Get a ukulele and learn how to play it
+- Get a ukulele and <del>learn how to play it</del>
 - Learn how to do Surface Mount Soldering
 
 ### Tech
-- Make this structure of this website more responsive
-- Blog about something interesting at least twice a month
+- <del>Make this structure of this website more responsive</del>
+- <del>Fix the permalink structure of this site</del>
 - Control my ridiculously large bookmarks collection in Firefox
 - Complete building my Raspberry Pi + Hubot powered robot butler 
 - Learn how to use GNU Screen
