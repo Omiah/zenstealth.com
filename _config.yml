@@ -1,6 +1,6 @@
 markdown: rdiscount
 pygments: true
-permalink: /posts/:title
+permalink: /:title
 rdiscount:
   extensions: [smart]
 exclude: [_drafts, todo*, readme.markdown]
