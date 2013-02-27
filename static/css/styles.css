@@ -31,8 +31,8 @@ code, pre { color: #000; }
 #music { margin-top: 15px; line-height: 28px; font-weight: 300; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
 #technical ul { padding-bottom: 10px; }
-#reading p { margin: 0; }
-#reading #favorites { border-top: 1px solid #333; }
+#list p { margin: 0; }
+#list #favorites { border-top: 1px solid #333; }
 #cc { padding-bottom: 15px; }
 
 .nav a { font-size: 16px;}
