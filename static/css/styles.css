@@ -34,7 +34,9 @@ code, pre { color: #000; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
 #technical ul { padding-bottom: 10px; }
 #list p { margin: 0; }
+#list #read { border-top: 1px solid #333; }
 #list #favorites { border-top: 1px solid #333; }
+
 #cc { padding-bottom: 15px; }
 
 .nav a { font-size: 16px;}
