@@ -1,6 +1,7 @@
 * { margin: 0; padding: 0; }
 
-html, body { color: #FFFFFF; font-size: 16px; font-family: "Helvetica Neue", Helvetica, sans-serif; }
+html, body { color: #FFFFFF; font-size: 16px; font-family: "Helvetica Neue", Helvetica, sans-serif; background-color: #000000; background-image: none!important; }
+
 
 /* IMPORTANT ELEMENT STUFF */
 h1 { color: #FFFFFF; font-size: 34px; font-weight: 200; }
