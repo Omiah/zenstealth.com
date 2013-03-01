@@ -24,7 +24,6 @@ code, pre { color: #000; }
 #container { min-height: 100%; position: relative; }
 #content { max-width: 600px; padding: 0 0 0 50px; min-height: 100%; margin: 50px 0 0 0; }
 #content p { line-height: 32px; padding-bottom: 5px; }
-#content img { display: block; max-width: 600px; }
 
 #index h1 { color: #FFFFFF; font-weight: 300; font-size: 34px; }
 #index p { margin: 2px; padding: 0; }
@@ -51,7 +50,7 @@ code, pre { color: #000; }
 
 .listing { margin: -10px 0 0 0; padding: 0; }
 .listing ul { margin: 0; padding: 0; }
-.listing li { font-size: 13px; list-style: none; padding: 5px 0; margin: 0; color: #777777; border-bottom: 1px solid #333; }
+.listing li { font-size: 14px; list-style: none; padding: 5px 0; margin: 0; color: #777777; border-bottom: 1px solid #333; }
 .listing li span { float: right; }
 .listing a { text-decoration: none; }
 .listing a:hover { text-decoration: underline; }
