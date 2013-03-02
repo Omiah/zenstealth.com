@@ -57,8 +57,8 @@ code, pre { color: #000; }
 .listing a { text-decoration: none; }
 .listing a:hover { text-decoration: underline; }
 
-.swell h2 { display: inline; }
-.swell span { float: right; margin: 0 5px;}
+.projects h2 { display: inline; }
+.projects span { float: right; margin: 10px 5px 0 5px; }
 .caret { vertical-align: 15%; }
 .well figcaption { margin-bottom: -15px; }
 
