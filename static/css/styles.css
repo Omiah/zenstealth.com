@@ -12,6 +12,7 @@ strong {color: #FFF; font-weight: 700;}
 p { font-weight: 300; }
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
 
+img { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
 blockquote p { margin-bottom: 15px; font-size: 15px; }
 figcaption { color: #555555; margin-top: 10px; padding-bottom: 10px; font-weight: 300; }
 
@@ -60,6 +61,10 @@ code, pre { color: #000; }
 .projects h2 { display: inline; }
 .projects span { float: right; margin: 10px 5px 0 5px; }
 .caret { vertical-align: 15%; }
+.well { -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; }
+
 .well figcaption { margin-bottom: -15px; }
 
 .dropdown-menu { -webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; }
