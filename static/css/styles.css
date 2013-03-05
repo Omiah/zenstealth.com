@@ -37,7 +37,6 @@ code, pre { color: #000; }
 #list p { margin: 0; }
 #list #read { border-top: 1px solid #333; }
 #list #favorites { border-top: 1px solid #333; }
-
 #cc { padding-bottom: 15px; }
 
 .nav a { font-size: 16px;}
@@ -61,10 +60,7 @@ code, pre { color: #000; }
 .projects h2 { display: inline; }
 .projects span { float: right; margin: 10px 5px 0 5px; }
 .caret { vertical-align: 15%; }
-.well { -webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px; }
-
+.well { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 .well figcaption { margin-bottom: -15px; }
 
 .dropdown-menu { -webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; }
