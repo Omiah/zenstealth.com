@@ -37,7 +37,7 @@ code, pre { color: #000; }
 #list p { margin: 0; }
 #list #read { border-top: 1px solid #333; }
 #list #favorites { border-top: 1px solid #333; }
-#cc { padding-bottom: 15px; }
+#cc { padding-bottom: 20px; border-style: solid; border-width: 3px; border-color: #FFFFFF; }
 
 .nav a { font-size: 16px;}
 .navbar-inner { padding-left: 48px; }
