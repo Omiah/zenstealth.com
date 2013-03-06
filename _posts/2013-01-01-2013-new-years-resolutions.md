@@ -4,7 +4,7 @@ title: "2013 New Year's Resolutions"
 published: true
 ---
 
-<img src="https://s3.amazonaws.com/f.cl.ly/items/3d0Y0P1G3S061m1A1h2G/6a00d83451b74a69e2017d3e40bf35970c-800wi.png" />
+![2013](https://s3.amazonaws.com/f.cl.ly/items/3d0Y0P1G3S061m1A1h2G/6a00d83451b74a69e2017d3e40bf35970c-800wi.png)
 
 It's that time of the year again, so here are my resolutions, which for the first time ever is publicly viewable. I think all of them are achievable, for the most part.
 
