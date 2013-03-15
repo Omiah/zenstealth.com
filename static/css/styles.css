@@ -34,9 +34,13 @@ code, pre { color: #000; }
 #music { margin-top: 15px; line-height: 28px; font-weight: 300; }
 #technical { padding-top: 10px; border-top: 1px solid #666; }
 #technical ul { padding-bottom: 10px; }
-#list p { margin: 0; }
-#list #read { border-top: 1px solid #333; }
-#list #favorites { border-top: 1px solid #333; }
+
+#reading #present   { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
+#reading #future    { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
+#reading #past      { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
+#reading #favorites { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
+#reading #favorites p { margin: 0;  }
+
 #cc { padding-bottom: 20px; border-style: solid; border-width: 3px; border-color: #FFFFFF; }
 
 .nav a { font-size: 16px;}
