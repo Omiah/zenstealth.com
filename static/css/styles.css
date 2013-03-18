@@ -42,8 +42,17 @@ code, pre { color: #000; }
 #reading #favorites p { margin: 0;  }
 
 #cc { padding-bottom: 20px; border-style: solid; border-width: 3px; border-color: #FFFFFF; }
+#logo a {
+   display:inline-block;
+   float: left;
+   width: 180px;
+   background: url(/static/img/site/logo.png) no-repeat;
+   padding: 3px 10px 0 0;
+   margin: 0 0 -10px 0; }
+#logo img { border-radius: 0; }
 
-.nav a { font-size: 16px;}
+.nav a { font-size: 16px; text-transform: uppercase; }
+.navbar { margin-top: 10px; }
 .navbar-inner { padding-left: 48px; }
 
 .title { padding: 0 0 20px 0; }
