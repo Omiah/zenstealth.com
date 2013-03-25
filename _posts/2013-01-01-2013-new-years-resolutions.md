@@ -23,7 +23,7 @@ Here's to surviving the apocalypse, and for a more prosperous new year.
 - Pass the SATs
 - Get accepted into a college
 - <del>Get a date to the Prom</del>
-- Successfully complete my Senior Project
+- <del>Successfully complete my Senior Project</del>
 
 ### Skills
 - Get better on the electric guitar
@@ -34,6 +34,5 @@ Here's to surviving the apocalypse, and for a more prosperous new year.
 ### Tech
 - <del>Make this structure of this website more responsive</del>
 - <del>Fix the permalink structure of this site</del>
-- Control my ridiculously large bookmarks collection in Firefox
 - Complete building my Raspberry Pi + Hubot powered robot butler 
 - Learn how to use GNU Screen

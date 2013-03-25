@@ -39,9 +39,11 @@ code, pre { color: #000; }
 #reading #future    { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
 #reading #past      { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
 #reading #favorites { padding-bottom: 5px; border-bottom: 1px dashed #222222; }
-#reading #favorites p { margin: 0;  }
+#reading #favorites p { margin: 0; }
 
 #cc { padding-bottom: 20px; border-style: solid; border-width: 3px; border-color: #FFFFFF; }
+#me { max-width: 70%; }
+
 #logo a {
    display:inline-block;
    float: left;
