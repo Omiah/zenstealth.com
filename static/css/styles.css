@@ -13,6 +13,7 @@ p { font-weight: 300; }
 p.small { color: #ededed; font-size: 12px; font-style: italic; }
 
 img { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+img.left { float: left; max-width: 40%; margin: 8px 10px 0 0; }
 blockquote p { margin-bottom: 15px; font-size: 15px; }
 figcaption { color: #555555; margin-top: 10px; padding-bottom: 10px; font-weight: 300; }
 
